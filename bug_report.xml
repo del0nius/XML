@@ -1,1 +1,20 @@
-
+<bugreport>
+<bugid>123</bugid>
+<bugname>Add_to_cart_01</bugname>
+<summary>Unable to add a second item via the add_to_cart button</summary>
+<submitdate>22.02.2022</submitdate>
+<reporter>del0nius</reporter>
+<OS>Windows 10</OS>
+<browser>Chrome</browser>
+<URL>https://example.com/product/abc</URL>
+<Description>When my cart contains one item, I am unable to add a second item via the add_to_cart button on a product page</Description>
+<StepsToReproduce>
+	<one>Go to https://example.com/catalog</one>
+	<two>Add any item to the cart</two>
+	<three>Go to any product page</three>
+	<four>click on add_to_cart button</four>
+</StepsToReproduce>
+<expresult>being able to add a second item to the cart</expresult>
+<actualresult>NOT being able to add a second item to the cart</actualresult>
+<screenshot>https://example.com/screenshot/bug01</screenshot>
+</bugreport>
